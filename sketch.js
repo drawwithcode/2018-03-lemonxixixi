@@ -5,7 +5,6 @@ function setup() {
 	 background(0);
   noStroke();
 }
-
 function draw() {
   fill(0, 10);
   rect(0,0,width,height);
@@ -25,7 +24,7 @@ function draw() {
 		}
 	}
 	}
-				for(var y = 0;y<= width;y+=50){
+	  	for(var y = 0;y<= width;y+=50){
 		for(var x =0;x<=height;x+=50){
 			 xoff += xincrement;
 		fill(random(255),0,random(255));
